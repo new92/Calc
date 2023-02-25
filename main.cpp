@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+/*
+Author: new92
+*/
+
 int main() {
     float num1, num2, result;
     char op;
