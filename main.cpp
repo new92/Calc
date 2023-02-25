@@ -3,6 +3,7 @@ using namespace std;
 
 /*
 Author: new92
+Github: @new92
 */
 
 int main() {
@@ -11,7 +12,7 @@ int main() {
 
     cout << "Please enter the first number: ";
     cin >> num1;
-    cout << "Please enter the operator (+, -, *, /): ";
+    cout << "Please enter the operator (+, -, *, /, %): ";
     cin >> op;
     cout << "Please enter the second number: ";
     cin >> num2;
@@ -28,6 +29,9 @@ int main() {
             break;
         case '/':
             result = num1 / num2;
+            break;
+        case '%':
+            result = num1 % num2;
             break;
         default:
             cout << "Invalid operator !";
